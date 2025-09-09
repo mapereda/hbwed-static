@@ -1,0 +1,175 @@
+@font-face {
+  font-family: 'HighSpirited';
+  src: url('fonts/High Spirited.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cormorant';
+  src: url('fonts/CormorantGaramond.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: "Cormorant", serif;  
+  overflow-x: hidden;
+}
+
+html {
+background: transparent;
+}
+
+/* Fondo “papel” – usa tu propia textura: /assets/paper-texture.jpg */
+.paper {
+  padding: 0;
+  background: url(../assets/fondoTextura.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.texto, p, span {
+  font-family: "Cormorant";
+  font-size: 1rem;
+  color: var(--ion-color-dark); 
+  text-align: left; 
+  color: #333;
+}
+
+.Label {
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: "Cormorant";
+  color: #333;
+}
+
+.InfoText {
+  margin: 0 auto;
+  color: #8f8f8f;
+  font-family: "Cormorant";
+  text-align: center;
+  font-size: .9rem;
+}
+
+h3, h5, ion-button {
+  font-family: "Cormorant";
+  color: #333;
+}
+
+h5 {
+  margin-top: 1.4rem;
+  margin-bottom: .2rem;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Portada */
+.CoverSection {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-image: url(../assets/fondoTextura.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.CoverSection p {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.Logo {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;  
+  margin-bottom: .6rem;
+}
+
+.TitlePortada {
+  font-family: "High Spirited", serif;
+  font-size: 4rem;
+  font-weight: 300;
+  margin: 1rem;
+  margin-top: 4rem;
+  color: #333;
+}
+
+/* Cabeceras - Headers */
+.HeaderSection {
+  width: 100%;
+  height: auto;
+  background-color: #d0dfca;
+}
+
+/* Secciones */
+.Section {
+  width: 100%;
+    height: 100%;
+    padding: 2rem 0;
+    padding-bottom: 0;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center; 
+}
+
+.TitleSection {
+  margin: .8rem 0;
+  font-family: "Cormorant";
+  color: var(--ion-color-dark);
+  font-size: 1.4rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+/* FAB “arriba” */
+.fab {
+  width: 3rem;
+  height: 3rem;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    background: #b7c4b2;
+    color: #333;
+    border-radius: 50%;
+    font-family: "Cormorant";
+    border: none;
+    box-shadow: 0 4px 20px -4px rgba(0,0,0,0.2);
+}
+
+.ConfirmSection {
+  background: #d0dfca;
+}
+
+.HeaderThanksSection {
+  padding: 0;
+  background-color: #d0dfca;
+}
+
+.AccommodationSection {
+  border-top: 1px solid #d0dfca;
+}
+
+@media (min-width: 768px) {
+  .Logo {
+    width: 46%;
+    height: auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .Logo {
+    width: 20%;
+    height: auto;
+  }
+}

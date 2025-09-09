@@ -1,0 +1,38 @@
+.TimelineSection {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.TimelineImg {
+  width: 100%;
+  height: auto;
+  max-width: 100%; /* opcional para limitar tamaño en pantallas grandes */
+  margin: 0 auto;
+  /* display: block; */
+  /* Puedes activar la animación si quieres */
+  /* animation: lineAnimation 3s ease-in-out infinite; */
+}
+
+/* Animaciones opcionales */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes lineAnimation {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}

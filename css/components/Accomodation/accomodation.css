@@ -1,0 +1,62 @@
+.Accommodation {
+      width: 100%;
+    height: 86%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../../../assets/novios.png);
+    background-repeat: no-repeat;
+    background-size: 80% auto;
+    background-position: center bottom;
+    padding-top: 1.4rem;
+    align-content: center;
+    justify-content: flex-start;
+}
+
+.Accommodation .texto {
+  text-align: center !important;
+}
+.Accommodation .HotelButton {
+  width: 70%;
+  padding: 0.8rem 1.5rem;
+  margin: 2rem auto;
+    font-size: 1rem;
+    border-radius: 32px;
+    border: none;
+    background-color: #d0dfca;
+    color: #000000;
+    font-weight: 400;
+    cursor: pointer;
+    box-shadow: 0 4px 20px -4px rgba(0, 0, 0, 0.2);
+    transition: background 0.2s;
+    text-transform: uppercase;
+}
+
+.HotelButton:hover {
+  background-color: #b7c4b2;
+}
+
+@media (min-width: 768px) {
+  .Accomodation {
+    width: 70%;
+    margin: 0 auto;
+    background-size: 64% auto;
+  }
+
+  .Accomodation p {
+    text-align: center;
+  }
+
+  .HotelButton {
+    width: 52%;
+    margin: 3rem auto 0 auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .Accomodation {
+    width: 50%;
+    margin: 0 auto;
+    background-size: 44% auto;
+  }
+}

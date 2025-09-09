@@ -1,0 +1,26 @@
+.HeaderCitaSection {
+    width: 100vw;
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.CitaText {
+  max-width: 90%;
+  margin: 0.4rem 0;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #333;
+  text-align: center;
+  font-family: "High Spirited";
+}
+
+/* Opcional: en pantallas grandes, aumentar tamaño de fuente */
+@media (min-width: 768px) {
+  .CitaText {
+    font-size: 1.4rem;
+  }
+}

@@ -1,0 +1,27 @@
+.Transporte {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1rem;
+  background-image: url(../../../assets//TransporteGreen.png);
+  background-repeat: no-repeat;
+  background-size: 80% auto;
+  background-position: center bottom;
+}
+
+@media (min-width: 768px) {
+  .Transporte {
+    background-size: 48% auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .Transporte {
+    width: 70%;
+    margin: 0 auto;
+    background-size: 20% auto;
+  }
+}
