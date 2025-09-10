@@ -12,6 +12,54 @@
   background-position: center bottom;
 }
 
+.TransporteList {
+  margin: .4rem 0;
+  padding: 0;
+  padding-inline-start: 0;
+}
+
+.ListItemTransporte {
+      list-style: none;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: repeat(2, auto);
+    flex-direction: row;
+    align-content: center;
+    justify-content: start;
+    margin-bottom: .4rem;
+    align-items: center;
+}
+
+.ListItemTransporte .dot{
+      grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    height: .8rem;
+    width: .8rem;
+    border-radius: 50%;
+    background-color: #d0dfca;
+    border: 1px solid #ffffff;
+    box-shadow: 6px 8px 20px -3px #333;
+    margin-top: .3rem;
+    margin-right: .6rem;
+}
+
+.ListItemTransporte .hour {
+      font-size: 1rem;
+    font-family: "Cormorant";
+    font-weight: 600;
+    margin-right: .4rem;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.ListItemTransporte .location {
+  font-size: 1.1rem;
+    font-family: "Cormorant";
+    font-weight: 500;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
 @media (min-width: 768px) {
   .Transporte {
     background-size: 44% auto;
