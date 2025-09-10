@@ -25,7 +25,7 @@
 .ThanksText {
   padding: 0.4rem 0;
   font-size: 1.8rem;
-  font-family: 'High Spirited', cursive;
+  font-family: 'HighSpirited', cursive;
   text-align: left;
   color: #ffffff;
 }
@@ -43,4 +43,5 @@
     background-size: 16% auto !important;
   }
 }
+
 
