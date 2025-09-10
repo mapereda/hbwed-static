@@ -46,6 +46,7 @@
 }
 
 .InfoText {
+  margin: 0;
   margin-bottom: 0.5rem;
   text-align: left;
 }
@@ -134,4 +135,17 @@
   border-radius: 8px;
   box-shadow: 0 4px 20px rgba(0,0,0,0.2);
   z-index: 1000;
+}
+
+
+@media (min-width: 768px) {
+  .ConfirmForm {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .ConfirmForm {
+    width: 32%;
+  }
 }
