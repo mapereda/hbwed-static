@@ -1,6 +1,6 @@
 .Accommodation {
   width: 100%;
-  height: 86%;
+  height: 86vh;
   display: flex;
   flex-direction: column;
   align-items: center;
