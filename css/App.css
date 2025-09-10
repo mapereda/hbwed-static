@@ -13,7 +13,7 @@
   src: url('../fonts/CormorantGaramond.woff') format('woff2'),
        url('../fonts/HighSpirited.woff') format('woff'),
        url('../fonts/CormorantGaramond.ttf') format('truetype');
-  font-weight: 300;
+  font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
@@ -178,6 +178,7 @@ h5 {
     height: auto;
   }
 }
+
 
 
 
