@@ -8,10 +8,10 @@
 
 .TimelineImg {
   width: 100%;
-  height: auto;
   max-width: 100%;
-  margin: 0 auto;
+  height: auto;
   display: block;
+  margin: 0 auto;  
   animation: lineAnimation 3s ease-in-out infinite;
 }
 

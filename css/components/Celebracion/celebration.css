@@ -1,10 +1,10 @@
 .Celebration {
-      width: 90%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    padding: 1rem 0;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 1rem 0;
 }
 
 .Adress {
@@ -19,13 +19,13 @@
 
 .mapa-placeholder {
   width: 100%;
-  height: 48vh;
-  border-radius: 12px;
+  height: 48vh;  
   display: grid;
   place-items: center;
-  font-weight: 600;
   margin: 1rem 0 2rem 0;
+  font-weight: 600;  
   border: 1px solid #ddd;
+  border-radius: 12px;
   overflow: hidden;
 }
 

@@ -1,16 +1,16 @@
 .Accommodation {
-      width: 100%;
-    height: 86%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-image: url(../../../assets/novios.png);
-    background-repeat: no-repeat;
-    background-size: 70% auto;
-    background-position: center bottom;
-    padding-top: 1.4rem;
-    align-content: center;
-    justify-content: flex-start;
+  width: 100%;
+  height: 86%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: flex-start;
+  padding-top: 1.4rem;
+  background-image: url(../../../assets/novios.png);
+  background-repeat: no-repeat;
+  background-size: 70% auto;
+  background-position: center bottom;
 }
 
 .Accommodation .texto {
@@ -22,17 +22,10 @@
   width: 70%;
   padding: 0.8rem 1.5rem;
   margin: 2rem auto;
-    font-size: 1rem;
-    border-radius: 32px;
-    border: none;
-    background-color: #d0dfca;
-    color: #000000;
-    font-weight: 400;
-    cursor: pointer;
-    box-shadow: 0 4px 20px -4px rgba(0, 0, 0, 0.2);
-    transition: background 0.2s;
-    text-transform: uppercase;
-  font-family: "Cormorant";
+  background-color: #d0dfca;
+  color: #000000;
+  box-shadow: 0 4px 20px -4px rgba(0, 0, 0, 0.2);
+  transition: background 0.2s;
 }
 
 .HotelButton:hover {
