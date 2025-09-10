@@ -1,13 +1,13 @@
 @font-face {
   font-family: 'HighSpirited';
-  src: url('fonts/High Spirited.ttf') format('truetype');
+  src: url('../fonts/HighSpirited.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Cormorant';
-  src: url('fonts/CormorantGaramond.ttf') format('truetype');
+  src: url('../fonts/CormorantGaramond.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -28,7 +28,7 @@ background: transparent;
 /* Fondo “papel” – usa tu propia textura: /assets/paper-texture.jpg */
 .paper {
   padding: 0;
-  background: url(../assets/fondoTextura.jpg);
+  background: url(../assets/WallpaperTexture.png);
   background-size: cover;
   background-attachment: fixed;
 }
@@ -76,9 +76,9 @@ h5 {
   text-align: center;
   flex-direction: column;
   justify-content: flex-end;
-  background-image: url(../assets/fondoTextura.jpg);
+  /*background-image: url(../assets/fondoTextura.jpg);
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: fixed;*/
 }
 
 .CoverSection p {
@@ -172,4 +172,5 @@ h5 {
     width: 20%;
     height: auto;
   }
+
 }
