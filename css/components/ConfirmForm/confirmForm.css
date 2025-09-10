@@ -36,7 +36,7 @@
 
 .ItemForm input:focus,
 .ItemForm select:focus {
-  border-color: #333;
+  border-color: #1a1a1a;
 }
 
 .ItemForm select {
@@ -83,12 +83,12 @@
   top: 0;  
   background-color: white;
   border-radius: 50%;
-  border: 1px solid #333;
+  border: 1px solid #1a1a1a;
 }
 
 .RadioLabel input:checked ~ .customRadio {
-  background-color: #333;
-  border-color: #333;
+  background-color: #1a1a1a;
+  border-color: #1a1a1a;
 }
 
 .customRadio::after {
@@ -114,14 +114,14 @@
   width: 100%;
   padding: 0.8rem;
   margin: 1rem 0;
-  background-color: #333;
+  background-color: #1a1a1a;
   color: white;
   box-shadow: 0 4px 20px rgba(0,0,0,0.2);
   transition: background 0.2s;
 }
 
 .ConfirmButton:hover {
-  background-color: #555;
+  background-color: #303030;
 }
 
 .loader {
@@ -130,8 +130,8 @@
   top: 50%;
   margin: auto;
   padding: 1rem;
-  background: #333;
-  color: white;  
+  background: rgb(241, 241, 241);
+  color: #1a1a1a;  
   border-radius: 8px;
   box-shadow: 0 4px 20px rgba(0,0,0,0.2);
   z-index: 1000;

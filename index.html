@@ -116,8 +116,9 @@
     <h2 class="TitleSection">CONFIRMACIÓN</h2>
     <!-- Contenido ConfirmForm -->
     <form id="confirmForm" class="ConfirmForm">
+    <p class="InfoText">Los campos marcados con * son obligatorios.</p>
     <div class="ItemForm">
-      <label for="name" class="LabelForm">Nombre y apellidos</label>
+      <label for="name" class="LabelForm">Nombre y apellidos *</label>
       <input type="text" id="name" name="name" placeholder="Introduce tu nombre completo" required>
     </div>
 
@@ -128,19 +129,19 @@
 
     <div class="ItemForm">
       <label for="allergy" class="LabelForm">Alergias e intolerancias</label>
-      <input type="text" id="allergy" name="allergy" placeholder="Introduce tus alergias o intolerancias?">
+      <input type="text" id="allergy" name="allergy" placeholder="Introduce tus alergias o intolerancias">
     </div>
 
     <div class="ItemForm">
-      <p class="LabelForm">¿Necesitas autobús?</p>
+      <p class="LabelForm">¿Necesitas autobús? *</p>
       <p class="InfoText">Habrá servicio de autobús, si lo vas a necesitar, selecciona la opción que prefieras</p>
       <div class="RadioGroup">
         <label class="RadioLabel">
-          <input type="radio" name="usaTransporte" value="si"> Sí
+          <input type="radio" name="usaTransporte" value="si" required> Sí
           <span class="customRadio"></span>
         </label>
         <label class="RadioLabel">
-          <input type="radio" name="usaTransporte" value="no"> No
+          <input type="radio" name="usaTransporte" value="no" required> No
           <span class="customRadio"></span>
         </label>
       </div>
@@ -173,19 +174,19 @@
         <span class="Label">Cuenta bancaria</span>
         <div class="BankAccountContent">
           <div id="bankAccount" class="BankAccount">Proximamente...</div>
-          <button id="copyButton" class="CopyButton">
+          <!-- <button id="copyButton" class="CopyButton">
             <img class="CopyIcon" src="./assets/Copy.svg" alt="Copy"/>
-          </button>
+          </button> -->
         </div>
       </div>
       <div class="PhonesContent">
         <div class="Phone">
           <span class="PhoneName">Daniel</span>
-          <span class="PhoneNumber">675 324 397</span>
+          <span class="PhoneNumber">+34 675 324 397</span>
         </div>
         <div class="Phone">
           <span class="PhoneName">Elena</span>
-          <span class="PhoneNumber">677 190 353</span>
+          <span class="PhoneNumber">+34 677 190 353</span>
         </div>
       </div>
       <div id="toast" class="toast">¡Número copiado! ¡Sois los mejores!</div>

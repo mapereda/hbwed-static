@@ -42,7 +42,7 @@ html {
   font-family: "Cormorant";
   font-size: 1.3rem;
   text-align: left; 
-  color: #333;
+  color: #1a1a1a;
   font-weight: 500;
 }
 
@@ -50,16 +50,16 @@ html {
   font-size: 1.2rem;
   font-weight: 600;
   font-family: "Cormorant";
-  color: #333;
+  color: #1a1a1a;
 }
 
 .InfoText {
   margin: 0 auto;
-  color: #484848;
+  color: #596551;
   font-family: "Cormorant";
   text-align: center;
   font-size: 1.1rem;
-  font-weight: 400;
+  font-weight: 600;
   font-style: italic;
 }
 
@@ -73,7 +73,7 @@ button {
   border: none;
   border-radius: 32px;
   cursor: pointer;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 h5 {
@@ -81,7 +81,7 @@ h5 {
   margin-bottom: .2rem;
   font-weight: 600;
   font-size: 1.1rem;
-  color: #333;
+  color: #1a1a1a;
 }
 
 /* Portada */
@@ -115,7 +115,7 @@ h5 {
   font-family: 'HighSpirited', cursive;
   font-size: 4rem;
   font-weight: 300;
-  color: #333;
+  color: #1a1a1a;
 }
 
 /* Cabeceras - Headers */
@@ -140,7 +140,7 @@ h5 {
 .TitleSection {
   margin: .8rem 0;
   font-family: "Cormorant";
-  color: #333;
+  color: #1a1a1a;
   font-size: 1.4rem;
   text-align: center;
   font-weight: 600;
@@ -155,7 +155,7 @@ h5 {
   right: 1rem;
   display: none;
   background: #b7c4b2;
-  color: #333;
+  color: #1a1a1a;
   border-radius: 50%;
   font-family: "Cormorant";
   border: none;
@@ -166,7 +166,7 @@ h5 {
   width: 1.6rem;
   height: 1.6rem;
   margin: auto;
-  fill: #333;
+  fill: #1a1a1a;
 }
 
 .ConfirmSection {
@@ -185,9 +185,9 @@ h5 {
 .toast {
   width: 86%;
   position: fixed;
-  bottom: 1rem;
+  bottom: 1.6rem;
   margin: 0 auto;
-  background: #333;
+  background: #1a1a1a;
   color: white;
   padding: 1rem;
   border-radius: 8px;
