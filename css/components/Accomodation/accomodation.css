@@ -37,13 +37,13 @@
 }
 
 @media (min-width: 768px) {
-  .Accomodation {
+  .Accommodation {
     width: 70%;
     margin: 0 auto;
-    background-size: 64% auto;
+    background-size: 44% auto;
   }
 
-  .Accomodation p {
+  .Accommodation p {
     text-align: center;
   }
 
@@ -54,9 +54,9 @@
 }
 
 @media (min-width: 1200px) {
-  .Accomodation {
+  .Accommodation {
     width: 50%;
     margin: 0 auto;
-    background-size: 44% auto;
+    background-size: 32% auto;
   }
 }
