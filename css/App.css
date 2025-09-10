@@ -11,7 +11,7 @@
 @font-face {
   font-family: 'Cormorant';
   src: url('../fonts/CormorantGaramond.woff') format('woff2'),
-       url('../fonts/HighSpirited.woff') format('woff'),
+       url('../fonts/CormorantGaramond.woff') format('woff'),
        url('../fonts/CormorantGaramond.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
@@ -178,6 +178,7 @@ h5 {
     height: auto;
   }
 }
+
 
 
 
