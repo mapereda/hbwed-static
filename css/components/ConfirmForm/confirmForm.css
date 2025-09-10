@@ -40,6 +40,7 @@
 .ItemForm select {
   width: 100%;
   margin-top: .5rem;
+  background-color: white;
 }
 
 .InfoText {
@@ -132,7 +133,6 @@
   position: fixed;
   top: 50%;
   margin: auto;
-  transform: translate(-50%, -50%);
   background: #333;
   color: white;
   padding: 1rem;
