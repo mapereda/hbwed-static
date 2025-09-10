@@ -100,7 +100,7 @@ h5 {
 }
 
 .TitlePortada {
-  font-family: "High Spirited", serif;
+  font-family: 'HighSpirited', cursive;
   font-size: 4rem;
   font-weight: 300;
   margin: 1rem;
@@ -178,4 +178,5 @@ h5 {
     height: auto;
   }
 }
+
 
