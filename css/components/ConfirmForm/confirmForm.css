@@ -9,7 +9,7 @@
 
 .ItemForm {
   margin-bottom: 1.5rem;
-  display: flex !important;
+  display: flex;
   flex-direction: column;
   font-family: "Cormorant";
 }
@@ -35,6 +35,10 @@
 .ItemForm input:focus,
 .ItemForm select:focus {
   border-color: #333;
+}
+
+.ItemForm select {
+  margin-top: .5rem;
 }
 
 .InfoText {
