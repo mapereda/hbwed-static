@@ -40,14 +40,15 @@ background: transparent;
 
 .texto, p, span {
   font-family: "Cormorant";
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: var(--ion-color-dark); 
   text-align: left; 
   color: #333;
+  font-weight: 400;
 }
 
 .Label {
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 600;
   font-family: "Cormorant";
   color: #333;
@@ -58,7 +59,8 @@ background: transparent;
   color: #8f8f8f;
   font-family: "Cormorant";
   text-align: center;
-  font-size: .9rem;
+  font-size: 1rem;
+  font-weight: 400;
 }
 
 h3, h5, ion-button {
@@ -178,6 +180,7 @@ h5 {
     height: auto;
   }
 }
+
 
 
 
