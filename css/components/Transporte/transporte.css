@@ -8,13 +8,13 @@
   padding: 1rem;
   background-image: url(../../../assets//TransporteGreen.png);
   background-repeat: no-repeat;
-  background-size: 80% auto;
+  background-size: 70% auto;
   background-position: center bottom;
 }
 
 @media (min-width: 768px) {
   .Transporte {
-    background-size: 48% auto;
+    background-size: 44% auto;
   }
 }
 

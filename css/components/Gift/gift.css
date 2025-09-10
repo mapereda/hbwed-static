@@ -12,13 +12,13 @@
 }
 
 .BankContent {
-      width: 94%;
-    display: flex;
-    flex-direction: column;
-    margin: 3rem 0;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
+  width: 98%;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
 }
 
 .Label {
@@ -29,7 +29,7 @@
 }
 
 .BankAccountContent {
-  width: 100%;
+  width: 96%;
   display: flex;
   flex-direction: row;
   padding: 0.6rem 0.4rem;
@@ -51,6 +51,13 @@
   cursor: pointer;
 }
 
+.CopyIcon {
+  width: 1.8rem;
+  height: 1.8rem;
+  fill: #333;
+  margin: 0 auto;
+}
+
 .PhonesContent {
   width: 90%;
   display: flex;
@@ -69,21 +76,6 @@
 
 .PhoneName {
   font-weight: bold;
-}
-
-/* Toast */
-.toast {
-  position: fixed;
-  bottom: 2rem;
-  left: 50%;
-  transform: translateX(-50%);
-  background: #333;
-  color: white;
-  padding: 1rem 2rem;
-  border-radius: 8px;
-  display: none;
-  opacity: 0.9;
-  z-index: 1000;
 }
 
 @media (min-width: 768px) {

@@ -3,17 +3,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 2rem 0;
+  padding: 3rem 0;
 }
 
 .TimelineImg {
   width: 100%;
   height: auto;
-  max-width: 100%; /* opcional para limitar tamaño en pantallas grandes */
+  max-width: 100%;
   margin: 0 auto;
-  /* display: block; */
-  /* Puedes activar la animación si quieres */
-  /* animation: lineAnimation 3s ease-in-out infinite; */
+  display: block;
+  animation: lineAnimation 3s ease-in-out infinite;
 }
 
 /* Animaciones opcionales */

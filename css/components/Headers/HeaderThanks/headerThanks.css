@@ -9,7 +9,7 @@
 
 .Cita {
   width: 100%;
-  min-height: 30vh;
+  min-height: 36vh;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -23,11 +23,12 @@
 }
 
 .ThanksText {
-  padding: 0.4rem 0;
-  font-size: 1.8rem;
-  font-family: 'HighSpirited', cursive;
-  text-align: left;
-  color: #ffffff;
+  width: 90%;
+    padding: 0.6rem 0;
+    font-size: 2.2rem;
+    font-family: 'HighSpirited', cursive;
+    text-align: left;
+    color: #ffffff;
 }
 
 @media (min-width: 768px) {

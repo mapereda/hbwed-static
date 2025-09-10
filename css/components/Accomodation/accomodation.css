@@ -6,7 +6,7 @@
     align-items: center;
     background-image: url(../../../assets/novios.png);
     background-repeat: no-repeat;
-    background-size: 80% auto;
+    background-size: 70% auto;
     background-position: center bottom;
     padding-top: 1.4rem;
     align-content: center;
@@ -14,8 +14,10 @@
 }
 
 .Accommodation .texto {
+  width: 90%;
   text-align: center !important;
 }
+
 .Accommodation .HotelButton {
   width: 70%;
   padding: 0.8rem 1.5rem;
@@ -30,6 +32,7 @@
     box-shadow: 0 4px 20px -4px rgba(0, 0, 0, 0.2);
     transition: background 0.2s;
     text-transform: uppercase;
+  font-family: "Cormorant";
 }
 
 .HotelButton:hover {
@@ -55,7 +58,7 @@
 
 @media (min-width: 1200px) {
   .Accommodation {
-    width: 50%;
+    width: 44%;
     margin: 0 auto;
     background-size: 32% auto;
   }

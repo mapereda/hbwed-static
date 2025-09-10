@@ -8,10 +8,10 @@ copyButton.addEventListener("click", () => {
     .then(() => {
       toast.style.display = "block";
       // Cambiar icono temporalmente
-      copyButton.textContent = "✔️";
+      //copyButton.textContent = "";
       setTimeout(() => {
         toast.style.display = "none";
-        copyButton.textContent = "📋";
+        //copyButton.textContent = "";
       }, 2000);
     })
     .catch(err => console.error("Error al copiar: ", err));

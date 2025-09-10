@@ -1,6 +1,6 @@
 .HeaderCitaSection {
     width: 100vw;
-    padding: 2rem 0;
+    padding: 3rem 0;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -9,9 +9,9 @@
 }
 
 .CitaText {
-  max-width: 90%;
-  margin: 0.4rem 0;
-  font-size: 2rem;
+  max-width: 88%;
+  margin: 0.6rem 0;
+  font-size: 2.2rem;
   font-weight: 500;
   color: #333;
   text-align: center;
