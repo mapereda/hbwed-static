@@ -1,15 +1,21 @@
 @font-face {
   font-family: 'HighSpirited';
-  src: url('fonts/High Spirited.ttf') format('truetype');
+  src: url('fonts/HighSpirited.ttf') format('truetype'),
+      url('HighSpirited.woff2') format('woff2'),
+        url('HighSpirited.woff') format('woff');
   font-weight: normal;
-  font-style: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
   font-family: 'Cormorant';
-  src: url('fonts/CormorantGaramond.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+  src: url('fonts/CormorantGaramond.ttf') format('truetype'),
+      url('CormorantGaramond.woff2') format('woff2'),
+        url('CormorantGaramond.woff') format('woff');
+  font-weight: 300;
+    font-style: normal;
+    font-display: swap;
 }
 
 html, body {
@@ -172,3 +178,4 @@ h5 {
     height: auto;
   }
 }
+
