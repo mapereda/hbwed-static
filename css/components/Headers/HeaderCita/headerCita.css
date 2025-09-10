@@ -15,7 +15,7 @@
   font-weight: 500;
   color: #333;
   text-align: center;
-  font-family: "High Spirited";
+  font-family: 'High Spirited', cursive;
 }
 
 /* Opcional: en pantallas grandes, aumentar tamaño de fuente */
@@ -24,3 +24,4 @@
     font-size: 1.4rem;
   }
 }
+
