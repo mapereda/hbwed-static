@@ -85,17 +85,16 @@ p {
     to { transform: scale(1); opacity: 1; }
 }
 
-
 @media (min-width: 768px) {
   .Logo {
-    width: 46%;
+    max-width: 46%;
     height: auto;
   }
 }
 
 @media (min-width: 1200px) {
   .Logo {
-    width: 20%;
+    max-width: 20%;
     height: auto;
   }
 }
