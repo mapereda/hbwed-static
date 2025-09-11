@@ -84,3 +84,18 @@ p {
     from { transform: scale(0.8); opacity: 0; }
     to { transform: scale(1); opacity: 1; }
 }
+
+
+@media (min-width: 768px) {
+  .Logo {
+    width: 46%;
+    height: auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .Logo {
+    width: 20%;
+    height: auto;
+  }
+}
