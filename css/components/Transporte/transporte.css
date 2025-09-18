@@ -6,14 +6,14 @@
   align-items: flex-start;
   justify-content: flex-start;
   padding: 1rem;
-  padding-bottom: 8rem;
+  padding-bottom: 10rem;
   background-image: url(../../../assets//TransporteGreen.png);
   background-repeat: no-repeat;
   background-size: 70% auto;
   background-position: center bottom;
 }
 
-.TransporteList {
+.TransporteList, .TaxiList {
   margin: .4rem 0;
   padding: 0;
   padding-inline-start: 0;
@@ -58,6 +58,16 @@
   font-size: 1.2rem;
   font-family: "Cormorant";
   font-weight: 500;  
+}
+
+.TaxiListItem {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+  list-style: none;
+  justify-content: center;
 }
 
 @media (min-width: 768px) {

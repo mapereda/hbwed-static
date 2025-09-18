@@ -98,7 +98,11 @@ h5 {
 
 .CoverSection p {
   margin: 1rem 0;
+  margin-top: 0;
   text-align: center;
+  font-family: 'HighSpirited', cursive;
+  font-size: 3rem;
+  font-weight: 500;    
 }
 
 .Logo {
@@ -107,6 +111,7 @@ h5 {
   display: block;
   margin: 0 auto;  
   margin-bottom: .6rem;
+  margin-left: 1.2rem;
 }
 
 .TitlePortada {
