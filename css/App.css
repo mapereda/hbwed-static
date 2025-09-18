@@ -41,7 +41,7 @@ html {
 .texto, p, span {
   font-family: "Cormorant";
   font-size: 1.3rem;
-  text-align: left; 
+  text-align: justify; 
   color: #1a1a1a;
   font-weight: 500;
 }
