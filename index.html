@@ -1,25 +1,231 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Elena y Daniel - En construcción</title>
-    <!-- Fuentes -->
-    <link rel="preload" href="/fonts/CormorantGaramond.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-    <link rel="preload" href="/fonts/HighSpirited.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-    
-    <link rel="stylesheet" href="fonts/CormorantGaramond.ttf">
-    <link rel="stylesheet" href="fonts/High Spirited.ttf">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>hbwed</title>
 
-    <link rel="stylesheet" href="css/styles.css">
+  <!-- Fuentes -->
+  <link rel="preload" href="/fonts/CormorantGaramond.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="/fonts/HighSpirited.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  
+  <link rel="stylesheet" href="fonts/CormorantGaramond.ttf">
+  <link rel="stylesheet" href="fonts/High Spirited.ttf">
+
+  <!-- Estilos generales -->
+  <link rel="stylesheet" href="css/App.css">
+  <link rel="stylesheet" href="css/components/ConfirmForm/confirmForm.css">
+  <link rel="stylesheet" href="css/components/Headers/HeaderCita/headerCita.css">
+  <link rel="stylesheet" href="css/components/Headers/HeaderThanks/headerThanks.css">
+  <link rel="stylesheet" href="css/components/Celebracion/celebration.css">
+  <link rel="stylesheet" href="css/components/Timeline/timeline.css">
+  <link rel="stylesheet" href="css/components/Transporte/transporte.css">
+  <link rel="stylesheet" href="css/components/Accomodation/accomodation.css">
+  <link rel="stylesheet" href="css/components/Gift/gift.css">
+  <link rel="stylesheet" href="css/components/HotelButton/hotelButton.css">
+  <link rel="stylesheet" href="css/components/theme/variables.css">
 </head>
-<body>
-    <div class="container fade-in">
-        <img src="assets/logo.png" alt="hbwed" class="LogoBoda" loading="lazy">
-        <h3 class="subtitulo-boda">07/12/2025</h3>
-        <h1 class="titulo-boda">Elena y Daniel</h1>        
-        <p>Estamos creando la web de nuestra boda.<br>
-        Pronto podrás encontrar aquí toda la información.</p>
+<body class="paper">
+
+  <!-- PORTADA -->
+  <section class="CoverSection" id="top">
+    <h1 class="TitlePortada">Elena y Daniel</h1>
+    <img src="assets/logo.png" alt="hbwed" class="Logo" loading="lazy">
+    <p class="CoverText">7.12.2025</p>
+  </section>
+
+  <!-- HEADER CITA -->
+  <section id="cita" class="HeaderSection HeaderCitaSection">
+    <p class="CitaText">Lo mejor de la felicidad es cuando puedes compartirla con las personas que hacen que merezca la pena.</p>
+    <p class="CitaText">Gracias por acompañarnos</p>
+  </section>
+
+  <!-- CELEBRACIÓN -->
+  <section id="celebracion" class="Section CelebrationSection">
+    <h2 class="TitleSection">CELEBRACIÓN Y CEREMONIA</h2>
+    <!-- Contenido Celebration -->
+    <div class="Celebration">
+      <span class="texto">La ceremonia tendrá lugar el <strong>domingo siete de diciembre de dos mil veinticinco</strong>, en la finca El Campillo, a la una de la tarde.</span>
+      <span class="texto">La recepción de invitados comenzará a las doce y media.</span>
+      <div class="Adress">
+        <span class="Label">Dirección: </span>
+        <span class="texto">Finca El Campillo, 1.8, M-600, 28200 San Lorenzo de El Escorial, Madrid</span>
+      </div>
+      <div class="mapa-placeholder">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3027.9762178677506!2d-4.095837124461307!3d40.6304064426075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd410c8288c26bc7%3A0x865d3b0dd729ba6f!2sFinca%20El%20Campillo!5e0!3m2!1ses!2ses!4v1755679547065!5m2!1ses!2ses" width="100%" height="100%" style="border:0;" loading="lazy" allowfullscreen></iframe>
+      </div>
     </div>
+  </section>
+
+  <!-- PROGRAMA - TIMELINE -->
+  <section id="programa" class="HeaderSection TimelineSection">
+    <img class="TimelineImg" src="assets/TimelineVertical.png" alt="Timeline">
+  </section>
+
+  <!-- TRANSPORTE -->
+  <section id="transporte" class="Section TransporteSection">
+    <h2 class="TitleSection">TRANSPORTE</h2>
+    <div class="Transporte">
+      <span class="texto">Habrá autobuses desde Madrid, Valdenuño Fernández y El Casar. Indícanos en la confirmación si quieres plaza para contar contigo.</span>
+      <h5>IDA</h5>
+      <ul class="TransporteList">
+        <li class="texto ListItemTransporte">
+          <div class="dot"></div>
+          <span class="hour">10:30h</span>
+          <span class="location">Valdenuño Fernández.</span>
+        </li>
+        <li class="texto ListItemTransporte">
+          <div class="dot"></div>
+          <span class="hour">10:45h</span>
+          <span class="location">El Casar.</span>
+        </li>
+        <li class="texto ListItemTransporte">
+          <div class="dot"></div>
+          <span class="hour">11:45h</span>
+          <span class="location">Cuatro Caminos, Madrid.</span>
+        </li>
+      </ul>
+      
+      <h5>VUELTA</h5>
+      <ul class="TransporteList">
+        <li class="texto ListItemTransporte">
+          <div class="dot"></div>
+          <span class="hour">23:00h</span>
+          <span class="location">Madrid.</span>
+        </li>
+        <li class="texto ListItemTransporte">
+          <div class="dot"></div>
+          <span class="hour">23:00h</span>
+          <span class="location">Moncloa - El Casar - Valdenuño Fernández.</span>
+        </li>
+      </ul>
+
+      <h5>Taxis en San Lorenzo del Escorial</h5>
+      <ul class="TaxiList">
+        <li class="TaxiListItem"><span class="texto">Taxi San Lorenzo del Escorial:</span><span class="texto">918 901 717</span></li>
+        <li class="TaxiListItem"><span class="texto">Tele Taxi San Lorenzo del Escorial:</span><span class="texto">670 019 400</span></li>
+        <li class="TaxiListItem"><span class="texto">Mercedes San Lorenzo:</span><span class="texto">619 249 194</span><a href="http://taximercedessanlorenzo.com" target="_blank">taximercedessanlorenzo.com</a></li>
+        <li class="TaxiListItem"><span class="texto">El Escorial Madrid:</span><span class="texto">650 688 779</span><a href="http://taxielescorialmadrid.com" target="_blank">taxielescorialmadrid.com</a></li>
+        <li class="TaxiListItem"><span class="texto">Más info:</span><a href="http://teletaxisanlorenzodelescorial.webnode.es" target="_blank">teletaxisanlorenzodelescorial.webnode.es</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ALOJAMIENTO -->
+  <section id="alojamiento" class="Section AccommodationSection">
+    <h2 class="TitleSection">ALOJAMIENTO</h2>
+    <div class="Accommodation">
+      <p class="texto">Si quieres alojarte en El Escorial, te dejamos estas sugerencias.</p>
+      <button id="hotelButton" class="HotelButton">Ver alojamientos</button>
+    </div>
+  </section>
+
+  <!-- CONFIRMACIÓN -->
+  <section id="confirmacion" class="Section ConfirmSection">
+    <h2 class="TitleSection">CONFIRMACIÓN</h2>
+    <!-- Contenido ConfirmForm -->
+    <form id="confirmForm" class="ConfirmForm">
+    <p class="InfoText">Los campos marcados con * son obligatorios.</p>
+    <div class="ItemForm">
+      <label for="name" class="LabelForm">Nombre y apellidos *</label>
+      <input type="text" id="name" name="name" placeholder="Introduce tu nombre completo" required>
+    </div>
+
+    <div class="ItemForm">
+      <label for="companionName" class="LabelForm">Nombre y apellidos acompañante</label>
+      <input type="text" id="companionName" name="companionName" placeholder="Nombre completo de tu acompañante">
+    </div>
+
+    <div class="ItemForm">
+      <label for="allergy" class="LabelForm">Alergias e intolerancias</label>
+      <input type="text" id="allergy" name="allergy" placeholder="Introduce tus alergias o intolerancias">
+    </div>
+
+    <div class="ItemForm">
+      <p class="LabelForm">¿Necesitas autobús? *</p>
+      <p class="InfoText">Habrá servicio de autobús, si lo vas a necesitar, selecciona la opción que prefieras</p>
+      <div class="RadioGroup">
+        <label class="RadioLabel">
+          <input type="radio" name="usaTransporte" value="si" required> Sí
+          <span class="customRadio"></span>
+        </label>
+        <label class="RadioLabel">
+          <input type="radio" name="usaTransporte" value="no" required> No
+          <span class="customRadio"></span>
+        </label>
+      </div>
+    </div>
+
+    <div class="ItemForm" id="busSelectContainer" style="display: none;">
+      <label for="bus" class="LabelForm">Transporte</label>
+      </br>
+      <select id="bus" name="bus">
+        <option value="">Selecciona tu opción de transporte</option>
+        <option value="madrid">Marqués de Viana, Madrid</option>
+        <option value="valdenuno">Valdenuño Fernández</option>
+        <option value="el-casar">El Casar</option>
+      </select>
+    </div>
+
+    <button type="submit" class="ConfirmButton">Confirmar</button>
+  </form>
+
+  <div id="toastMail" class="toast"></div>
+  <div id="loader" class="loader" style="display: none;">Enviando confirmación...</div>
+  </section>
+
+  <!-- REGALO -->
+  <section id="regalo" class="Section GiftSection">
+    <h2 class="TitleSection">REGALO</h2>
+    <div class="Gift">
+      <p class="texto">El mayor regalo es contar con vuestra compañía en un día tan especial para nosotros. No obstante, si deseáis tener un detalle, podéis hacerlo a través de Bizum o mediante transferencia bancaria en la siguiente cuenta.</p>
+      <div class="BankContent">
+        <span class="Label">Cuenta bancaria</span>
+        <div class="BankAccountContent">
+          <div id="bankAccount" class="BankAccount">ES48 1465 0100 91 1721910089</div>
+          <!-- <button id="copyButton" class="CopyButton">
+            <img class="CopyIcon" src="./assets/Copy.svg" alt="Copy"/>
+          </button> -->
+        </div>
+      </div>
+      <div class="PhonesContent">
+        <div class="Phone">
+          <span class="PhoneName">Daniel</span>
+          <span class="PhoneNumber">+34 675 324 397</span>
+        </div>
+        <div class="Phone">
+          <span class="PhoneName">Elena</span>
+          <span class="PhoneNumber">+34 677 190 353</span>
+        </div>
+      </div>
+      <div id="toast" class="toast">¡Número copiado! ¡Sois los mejores!</div>
+    </div>
+  </section>
+
+  <!-- GRACIAS -->
+  <section id="gracias" class="HeaderSection HeaderThanksSection">
+    <div class="HeaderThanks">
+      <div class="Cita">
+        <span class="ThanksText">Donde el corazón vibre, la cabeza esté en calma y el alma contenta, ahí es.</span>
+        <span class="ThanksText">Os esperamos</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- BOTÓN FLOTANTE ARRIBA -->
+  <!-- <button id="scrollTopButton" class="fab">
+    <img class="FabIcon" src="./assets/ArrowUp.svg"/>
+  </button> -->
+
+  <!-- Scripts JS -->
+  <script src="js/gift.js"></script>
+  <script src="js/hotelButton.js"></script>
+  <script src="js/confirmForm.js"></script>
+  <script src="js/app.js"></script>
+
+  <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
+  <script src="js/scrollToTop.js"></script>
 </body>
 </html>
